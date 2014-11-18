@@ -1,5 +1,17 @@
-/* line 2, ../scss/main.scss */
+/* line 11, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #edf; }
+  color: red; }
+
+/* line 12, ../scss/main.scss */
+.rounde, .rounded {
+  border: 2px solid orange;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+/* line 17, ../scss/main.scss */
+.rounded {
+  border-width: 5px; }
 
 /*# sourceMappingURL=main.css.map */

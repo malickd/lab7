@@ -1,2 +1,20 @@
-$main-color: #edf;
+$main-color: red;
+$border-color: orange;
+
+@mixin rounded($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 h1,h2,h3,h4,h5,h6 {color: $main-color;}
+.rounde {
+    border: 2px solid $border-color;
+    @include rounded(10px);
+}
+
+.rounded {
+    @extend .rounde;
+    border-width: 5px;
+}

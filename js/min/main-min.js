@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".toggle").click(function(){$(this).next().fadeToggle("slow"),$(this).next().text("Hello, I have just been changed.")})});
